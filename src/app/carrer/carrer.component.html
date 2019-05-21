@@ -1,0 +1,12 @@
+<div class="carrer">
+  <div class="search">
+    <h2>Find a job that suits you </h2>
+    <input type="search" name="search" placeholder="Search..">
+  </div>
+  <div class="job" *ngFor="let j of jobs">
+    <h3 class="title">{{j.title}}</h3>
+    <p class="des">{{j.expirationDate}}</p>
+    <p class="des">{{j.person}} persons</p>
+  </div>
+
+</div>
