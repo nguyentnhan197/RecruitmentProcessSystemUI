@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Job, jobs} from "../carrer/carrer.component";
 
 @Component({
   selector: 'app-review-applicant',
@@ -13,3 +14,8 @@ export class ReviewApplicantComponent implements OnInit {
   }
 
 }
+
+
+
+
+
